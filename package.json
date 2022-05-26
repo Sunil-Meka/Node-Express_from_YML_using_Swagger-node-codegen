@@ -1,0 +1,17 @@
+{
+  "name": "node-js-express-from-yml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"generate" : "node config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "swagger-node-codegen": "^1.6.3"
+  }
+}
